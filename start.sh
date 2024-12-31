@@ -1,2 +1,1 @@
-docker build -t custom-ghost .
-docker-compose up -d
+docker compose up -d
