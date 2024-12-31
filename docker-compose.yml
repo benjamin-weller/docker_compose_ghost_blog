@@ -41,7 +41,7 @@ services:
     database__connection__user: ${DB_USER:?error}
     database__connection__password: ${USER_PASS:?error}
     database__connection__database: ${CONNECTED_DB:?error}
-    url: ${CONNECTED_DB:?error}
+    url: ${URL:?error}
 
   networks:
       - app-network
